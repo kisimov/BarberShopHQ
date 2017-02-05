@@ -18,11 +18,7 @@ ActiveRecord::Schema.define(version: 20140916185831) do
     t.datetime "updated_at"
   end
 
-<<<<<<< Updated upstream
-  create_table "clients", force: true do |t|
-=======
   create_table "clients", force: :cascade do |t|
->>>>>>> Stashed changes
     t.text     "name"
     t.text     "phone"
     t.text     "datestamp"
